@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>StayNest - PG Accommodation</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav>
+        <h1>🏠 StayNest</h1>
+
+        <div class="nav-links">
+            <a href="#">Home</a>
+            <a href="#rooms">Rooms</a>
+            <a href="#about">About</a>
+        </div>
+    </nav>
+
+
+    <!-- HERO -->
+    <section class="hero">
+
+        <h2>Find Your Perfect PG</h2>
+
+        <p>
+            Find affordable and comfortable shared rooms
+            across Tamil Nadu.
+        </p>
+
+    </section>
+
+
+    <!-- FILTER SECTION -->
+    <section class="filters">
+
+        <h2>Find a Room</h2>
+
+        <div class="filter-box">
+
+            <!-- DISTRICT -->
+            <div>
+                <label>District</label>
+
+                <select id="district">
+                    <option value="all">All Districts</option>
+                </select>
+            </div>
+
+
+            <!-- GENDER -->
+            <div>
+                <label>Gender</label>
+
+                <select id="gender">
+
+                    <option value="all">All</option>
+
+                    <option value="boys">
+                        👦 Boys
+                    </option>
+
+                    <option value="girls">
+                        👧 Girls
+                    </option>
+
+                </select>
+            </div>
+
+
+            <!-- SHARING -->
+            <div>
+
+                <label>Room Sharing</label>
+
+                <select id="sharing">
+
+                    <option value="all">
+                        Any Sharing
+                    </option>
+
+                    <option value="1">
+                        1 Sharing
+                    </option>
+
+                    <option value="2">
+                        2 Sharing
+                    </option>
+
+                    <option value="3">
+                        3 Sharing
+                    </option>
+
+                    <option value="4">
+                        4 Sharing
+                    </option>
+
+                </select>
+
+            </div>
+
+
+            <!-- BUDGET -->
+            <div>
+
+                <label>Budget</label>
+
+                <select id="budget">
+
+                    <option value="all">
+                        Any Budget
+                    </option>
+
+                    <option value="low">
+                        ₹2,500 - ₹5,000
+                    </option>
+
+                    <option value="medium">
+                        ₹5,000 - ₹8,000
+                    </option>
+
+                    <option value="premium">
+                        ₹8,000 - ₹12,000
+                    </option>
+
+                </select>
+
+            </div>
+
+
+            <button id="searchBtn">
+                Search Rooms
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- RESULTS -->
+
+    <section id="rooms">
+
+        <div class="results-heading">
+
+            <h2>Available PG Rooms</h2>
+
+            <span id="resultCount">
+                0 rooms
+            </span>
+
+        </div>
+
+
+        <div id="roomContainer" class="room-container">
+
+            <!-- JavaScript cards will appear here -->
+
+        </div>
+
+    </section>
+
+
+    <!-- ABOUT -->
+
+   
+
+
+    <footer>
+         <p> 📧 staynest@gmail.com </p>
+         <p> 📞 +91 98765 43210 </p>
+        <p>
+            © 2026 StayNest | PG Accommodation
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
+
